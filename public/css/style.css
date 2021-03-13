@@ -1,0 +1,50 @@
+
+.heading{
+    text-align: center;
+    margin: 1rem 0;
+    
+}
+
+.table th{
+    font-size: 1.4rem;
+}
+
+.table td{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.table a{
+    color: white;
+    background: green;
+    border: none;
+    outline: none;
+}
+
+.registerHEader{
+    text-align: center;
+
+}
+.mainHead{
+    color: red;
+}
+
+.navbar-brand{
+    padding: 10px;
+    margin: 0 auto;
+    color: red;
+}
+
+.navbar-nav{
+    font-size: 1.5rem;
+   
+}
+
+.nav-link{
+   font-weight: bold;
+}
+
+.nav-item a:hover{
+    border-bottom: 1px solid rgb(182, 104, 104);
+    
+}

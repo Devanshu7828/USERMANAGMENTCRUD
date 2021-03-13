@@ -1,0 +1,35 @@
+<div class="container"> 
+    <h1 class="heading">Home page</h1>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Address</th>
+        <th scope="col">City</th>
+        <th scope="col">Zip</th>
+        <th scope="col">Update</th>
+        <th scope="col">Delete</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+        <% for(let i=0; i<User.length;i++){ %>
+      <tr>
+        <th scope="row"><%=i+1%></th>
+        <td><%= User[i].name%></td>
+        <td><%= User[i].email%></td>
+        <td><%= User[i].address%></td>
+        <td><%= User[i].city%></td>
+        <td><%= User[i].zip%></td>
+       <td><a class="btn btn-info"href="/updateUser/<%=User[i]._id%>">Udpate</a></td> 
+       <td><a class="btn btn-danger" href="/deleteUser/<%=User[i]._id%>">Delete</a></td> 
+     
+        
+       
+      </tr>
+       <%}%>
+    </tbody>
+  </table>
+</div>
