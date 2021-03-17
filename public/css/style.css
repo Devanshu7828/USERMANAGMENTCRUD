@@ -1,50 +1,70 @@
-
-.heading{
-    text-align: center;
-    margin: 1rem 0;
-    
+.heading {
+  text-align: center;
+  margin: 1rem 2px;
 }
 
-.table th{
-    font-size: 1.4rem;
+.table th {
+  font-size: 1.4rem;
 }
 
-.table td{
-    font-weight: bold;
-    font-size: 1rem;
+.table td {
+  font-weight: bold;
+  font-size: 1rem;
 }
 
-.table a{
-    color: white;
-    background: green;
-    border: none;
-    outline: none;
+.table a {
+  color: white;
+  background: green;
+  border: none;
+  outline: none;
 }
 
-.registerHEader{
-    text-align: center;
-
+.registerHEader {
+  text-align: center;
 }
-.mainHead{
-    color: red;
-}
-
-.navbar-brand{
-    padding: 10px;
-    margin: 0 auto;
-    color: red;
+.mainHead {
+  color: red;
 }
 
-.navbar-nav{
-    font-size: 1.5rem;
-   
+.navbar-brand {
+  padding: 10px;
+  margin: 0 auto;
+  color: red;
 }
 
-.nav-link{
-   font-weight: bold;
+.navbar-nav {
+  font-size: 1.5rem;
 }
 
-.nav-item a:hover{
-    border-bottom: 1px solid rgb(182, 104, 104);
-    color: red;
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  border-bottom: 1px solid rgb(182, 104, 104);
+  color: red;
+}
+
+#main-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+#register-btn {
+  background-color: orange;
+  border: none;
+  padding: 5px 8px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+#register-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.collapse ul {
+  margin-left: 50rem;
 }
